@@ -3,3 +3,12 @@ prueba de push
 que pasa que no se ve?
 
 y ahora? que pasa?
+
+ahi vaaaa!
+
+paso para el guardado en git
+
+git init 	- para inicializar repo
+git add . 	- para agregar todas las modificaciones (archivos modificados/borrados/agregados)
+git commit -m "mensaje breve de accion realizada"	-esto lo setea en memoria local para luego pushearlo al repo
+git push origin nombreDeRama - y listo, esto lo carga al repo en el hub. ver y F5 para ver si subio.
