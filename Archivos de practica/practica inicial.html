@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="practicainicial.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- varias imagenes se agrupan en <picture> no solo para agrupar imagenes y que sean responsive
+        sino que tambien para insertar varios formatos, para compatibilidad con varios exploradores que no
+    soporten un tipo de archivo de imagen determinado  -->
+    <picture>
+      <source
+        srcset="
+          https://codigofacilito.com/system/articles/covers/000/000/043/original/html.jpg?1444827874
+        "
+        media="(min-width: 700px)"
+      />
+      <source
+        srcset="
+          https://th.bing.com/th/id/OIP.k7RJjCF2IqDLAidvhUdFbgAAAA?rs=1&pid=ImgDetMain
+        "
+        media="(min-width: 350px)"
+      />
+      <img
+        src="https://th.bing.com/th/id/OIP.2O-kMhqCQJCfvCzOJOHv2AHaHa?rs=1&pid=ImgDetMain"
+        alt="se escribe una descripcion breve de la image"
+      />
+    </picture>
+    <br />
+
+
+    <!-- iframe es para incrustar recursos externos. videos de youtube, spotify music, mapas (los que tengan opcion
+        de Embed) -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d685.6573313902734!2d-59.0980566302229!3d-35.16773456033336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd00a5cffd9fa3%3A0x9777b200087c3d58!2sBuenos%20Aires%201972%2C%20Lobos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1710281028706!5m2!1ses-419!2sar"
+      width="400"
+      height="250"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <hr>
+    <table>
+        <tr>columna con tr</tr>
+        <td>campo fila con td</td>
+      
+    </table>
+  </body>
+</html>
