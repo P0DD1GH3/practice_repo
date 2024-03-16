@@ -11,7 +11,6 @@
         sino que tambien para insertar varios formatos, para compatibilidad con varios exploradores que no
     soporten un tipo de archivo de imagen determinado  -->
     <picture>
-
       <!-- second imgage that appears when screen has a min of 700px -->
       <source
         srcset="
@@ -48,13 +47,35 @@
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
-
-    <hr />
-    <table>
+    <table border="1">
+      <th>tabla de muestra</th>
+      <th>segundo encabezado con "th"</th>
+      <th>multimedia</th>
       <tr>
-        columna con tr
+        <td>primero</td>
+        <td>segundo</td>
+        <td>
+          <ul>
+            <li>uno</li>
+            <li>dos</li>
+            <li>tres</li>
+          </ul>
+        </td>
       </tr>
-      <td>campo fila con td</td>
+      <tr>
+        <td>
+          <iframe
+            width="360"
+            height="115"
+            src="https://www.youtube.com/embed/rLoWMU4L_qE?si=xroO8CkTDTxVDZ1G"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </td>
+        <td><img src="https://www.w3schools.com/" alt="w3 logo" /></td>
+      </tr>
     </table>
   </body>
 </html>
