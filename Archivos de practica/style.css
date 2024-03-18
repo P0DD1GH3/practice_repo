@@ -1,4 +1,4 @@
-* {
+* ::before ::after {
   box-sizing: border-box;
   margin: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -9,16 +9,26 @@
 }
 
 
-
-.head-container{
-    display: flex;
+.head-container {
+  display: flex;
+  background-color: rgba(230, 230, 230, 0.795);
+  justify-content: space-between;
+  
 }
 
 .head-container img {
-    flex-shrink: 1;
-    max-width: 10vh;
-    border-radius: 40px 40px 500px 100px; 
-    margin: 1vh;
-    border-color: 
-    border-style: solid 5px linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(128,66,255,0.5535420098846787) 35%);
+  display: flex;
+  width: 10vh;
+  border-radius: 40px 40px 500px 100px;
+  margin: 1vh;
+  border: 3px solid rgb(255, 0, 0);
+}
+
+.btn-container .nav-btn {
+  margin-top: 5%;
+  margin-right: 10px;
+  background-color: #d3e2d1;
+  border: 1px solid black;
+  border-radius: 5px;
+
 }
