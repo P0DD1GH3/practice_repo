@@ -51,3 +51,8 @@
   border-radius: 50%;
   background-color: white;
 }
+
+article table {
+  display: flex;
+  overflow: auto;
+}
