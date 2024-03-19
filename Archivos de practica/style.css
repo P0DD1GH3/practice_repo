@@ -7,6 +7,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
+
 .picture-container img{
  width: 100%;
 }
@@ -45,7 +47,7 @@
 
 .jake .left-eye {
   width: 25px;
-  height: 25px;
+  height: 5px;
   border-radius: 50%;
   background-color: white;
 }
